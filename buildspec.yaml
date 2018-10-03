@@ -1,11 +1,14 @@
 varsion: 0.2
 
 phases:
-  intall:
+  install:
     commands:
       - printenv
       - cd lambda/custom && npm install
   build:
     commands:
       - npm test
-      - npm run build-aws-
+      - npm run build-aws-resource
+artefacts:
+  files:
+    - lambda/custom/hello-world.zip
