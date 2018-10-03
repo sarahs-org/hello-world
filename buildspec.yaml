@@ -9,6 +9,7 @@ phases:
     commands:
       - npm test
       - npm run build-aws-resource
+      - echo 'done zip'
 artifacts:
   files:
     - lambda/custom/hello-world.zip
