@@ -1,4 +1,4 @@
-varsion: 0.2
+version: 0.2
 
 phases:
   install:
@@ -9,6 +9,6 @@ phases:
     commands:
       - npm test
       - npm run build-aws-resource
-artefacts:
+artifacts:
   files:
     - lambda/custom/hello-world.zip
