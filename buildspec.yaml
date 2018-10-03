@@ -1,0 +1,11 @@
+varsion: 0.2
+
+phases:
+  intall:
+    commands:
+      - printenv
+      - cd lambda && npm install
+  build:
+    commands:
+      - npm test
+      - npm run build-aws-
