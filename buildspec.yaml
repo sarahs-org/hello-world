@@ -4,7 +4,7 @@ phases:
   intall:
     commands:
       - printenv
-      - cd lambda && npm install
+      - cd lambda/custom && npm install
   build:
     commands:
       - npm test

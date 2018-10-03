@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-aws-resource" : ""
+    "test": "jest",
+    "build-aws-resource": ""
   },
   "author": "",
   "license": "ISC",
